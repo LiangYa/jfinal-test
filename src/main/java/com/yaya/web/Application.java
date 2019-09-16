@@ -1,4 +1,4 @@
-package com.yaya.config;
+package com.yaya.web;
 
 import com.jfinal.core.JFinal;
 
