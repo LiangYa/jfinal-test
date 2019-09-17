@@ -24,8 +24,10 @@ public class DemoConfig extends JFinalConfig {
 
     @Override
     public void configRoute(Routes routes) {
-        routes.add("/hello", HelloController.class);
-//        routes.add("/hello/yaya", HelloController.class);
+//        routes.add("/hello", HelloController.class);
+        routes.add(new FrontRoutes());//前端路由
+        routes.add(new AdminRoutes());//后端路由
+
     }
 
     @Override
